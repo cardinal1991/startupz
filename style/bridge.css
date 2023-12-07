@@ -1,0 +1,117 @@
+bridge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 346px;
+}
+
+.bridge-box {
+    display: flex;
+    justify-content: center;
+}
+
+.bridge-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.bridge-title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bridge-h3 {
+    display: flex;
+    color: #FB8958;
+text-align: center;
+justify-content: flex-end;
+align-items: flex-end;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 125% */
+letter-spacing: -0.4px;
+margin: 0;
+padding: 0;
+height: 50px;
+margin-left: 32px;
+margin-right: 32px;
+height: 100%;
+}
+
+.bridge-title-img {
+ background-image: url('./../img/bridge-title.jpg');
+ width: 59px;
+ height: 66px;
+ display: inline-flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.bridge-title-img-rotated {
+    background-image: url('./../img/bridge-title.jpg');
+    width: 59px;
+    height: 66px;
+    display: inline-flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   transform: rotateY(180deg);
+   }
+
+   .bridge-img {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 114px;
+height: 112.813px;
+flex-shrink: 0;
+border-radius: 112.813px;
+background: #FFF;
+box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+margin-left: 200px;
+   }
+
+   .bridge-img-box {
+    display: flex;
+    background-image: url('./../img/bridge-img.jpg');
+    width: 96px;
+    height: 95px;
+    border-radius: 95px;
+background: #F5F5F5;
+text-align: center;
+justify-content: center;
+align-self: center;
+justify-self: center;
+   }
+
+   .bridge-img-img {
+    background-color: #F5F5F5;
+    width: 60px;
+height: 55px;
+flex-shrink: 0;
+display: inline-block;
+justify-self: center;
+align-self: center;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 55px;
+   }
+
+   @media (max-width: 800px) {
+    .bridge-img {
+        display: none;
+    }
+    .bridge-title {
+        margin: 0;
+    }
+    .bridge-h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+  }

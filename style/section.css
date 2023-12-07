@@ -1,0 +1,120 @@
+section {
+    background: #FBFAFA;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section-title {
+    padding-top: 147px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.section-title-right {
+    display: flex;
+    margin-left: 212px;
+    margin-right: 159px;
+}
+.section-img {
+    width: 75px;
+height: 88px;
+flex-shrink: 0;
+    background-image: url('./../img/section-question-mark.svg');
+}
+.section2-img {
+    width: 75px;
+height: 104px;
+flex-shrink: 0;
+    background-image: url('./../img/section2-img.svg');
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.section-h1 {
+    color: #3D4F5C;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 100% */
+letter-spacing: -1px;
+margin: 0;
+margin-bottom: 32px;
+}
+
+.section-p {
+    color:  #FB8958;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+letter-spacing: -0.24px;
+margin: 0;
+
+}
+
+.section-bottom {
+    margin-left: 120px;
+    margin-top: 79px;
+    display: flex;
+    padding-bottom: 157px;
+}
+
+.section-bottom-text {
+    margin-right: 95px;
+}
+
+.section-number {
+    color:  #FB8958;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 100% */
+letter-spacing: -0.3px;
+width: 30px;
+height: 30px;
+margin: 0;
+white-space: nowrap;
+}
+
+.section-number::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #3D4F5C;
+    width: 150%;
+    margin-top: 19px;
+}
+
+.section-text {
+    color: #3D4F5C;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; /* 126.667% */
+letter-spacing: -0.3px;
+margin-right: 95px;
+margin: 0;
+margin-top: 45px;
+}
+
+@media (max-width: 1200px) {
+    .section-bottom {
+        flex-direction: column;
+    }
+    .section2-img {
+        margin-left: 36px;
+    }
+    .section-title-right {
+        margin: 0;
+    }
+    .section-bottom-text {
+        margin-bottom: 20px;
+    }
+  }

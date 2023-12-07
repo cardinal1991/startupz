@@ -1,0 +1,127 @@
+footer {
+    display: flex;
+    background: #FBFBFA;
+    height: 401px;
+    justify-content: space-around;
+}
+
+.footer-companies, .footer-contact, .footer-follow {
+    margin-top: 104px;
+}
+
+.footer-logo {
+
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.footer-logo-logo {
+background-image: url('./../img/logo.svg');
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+margin-bottom: 85px;
+}
+
+.footer-logo-p {
+    color: #939393;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.footer-p {
+    color: #3D4F5C;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 100% */
+}
+
+.footer-link {
+    text-decoration: none;
+    color:  #46B8C8;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+
+}
+
+.footer-companies {
+display: flex;
+flex-direction: column;
+
+}
+
+.footer-contact-p {
+    color: #939393;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+
+.footer-twitter {
+    background-image: url('./../img/twitter.svg');
+    width: 23px;
+height: 23px;
+flex-shrink: 0;
+margin-bottom: 15px;
+}
+
+.footer-linkedin {
+    background-image: url('./../img/linkedin.svg');
+    width: 23px;
+height: 23px;
+flex-shrink: 0;
+margin-bottom: 15px;
+}
+
+.footer-insta {
+    background-image: url('./../img/insta.svg');
+    width: 23px;
+height: 23px;
+flex-shrink: 0;
+margin-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+    footer {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .footer-logo {
+        margin: 0;
+        margin-top: 35px;
+    }
+    .footer-p {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .footer-link, .footer-link-twitter, .footer-link-insta, .footer-link-linkedin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-companies, .footer-contact, .footer-follow {
+        margin-top: 24px;
+    }
+
+    .footer-logo-p {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+  }
